@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Скачивание Davinci Resolve Studio 18.5.1</title>
+    <link rel="stylesheet" href="Davinci.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="theme-toggle">
+        <button id="darkModeToggle">
+            <i class="fas fa-moon"></i> Темная тема
+        </button>
+        <button id="lightModeToggle">
+            <i class="fas fa-sun"></i> Светлая тема
+        </button>
+    </div>
+    <div class="translation-options">
+        <button id="translateToEn">
+            <i class="fas fa-globe"></i> EN
+        </button>
+        <button id="translateToRu">
+            <i class="fas fa-globe"></i> RU
+        </button>
+    </div>
+    <div class="color-picker">
+        <label for="iconColor">Цвет иконок и кнопок (RGB):</label>
+        <input type="color" id="iconColor" name="iconColor" value="#9554ff">
+    </div>
+    <div class="container">
+        <h1>Скачайте Davinci Resolve Studio 18.5.1</h1>
+        <button id="generateCode">
+            <i class="fas fa-key"></i> Получить код
+        </button>
+        <div id="codeDisplay" class="hidden">
+            <input type="text" id="codeInput" placeholder="Введите код">
+            <button id="verifyCode">
+                <i class="fas fa-check"></i> Проверить код
+            </button>
+            <p id="result"></p>
+            <p id="expiryMessage" class="hidden"></p>
+            <p id="timer" class="hidden"></p>
+        </div>
+        <a id="downloadLink" class="hidden" href="https://cloud.mail.ru/public/rogs/vensgEtsa" target="_blank">
+            <i class="fas fa-download"></i> Скачать Davinci Resolve Studio 18.5.1
+        </a>
+        <a href="https://www.virustotal.com/gui/home/upload" target="_blank" id="virusTotalLink">
+            <i class="fas fa-shield-virus"></i> Проверить на вирусы
+        </a>
+        <div id="creatorInfo">
+            <p>Создатель: <strong>Leguskha</strong></p>
+            <p>Пожертвование на карту: <strong>2200 7012 0006 6212</strong></p>
+        </div>
+        <a href="Premier.html" id="premierLink">
+            <i class="fas fa-film"></i> Скачать Adobe Premier Pro 2024
+        </a>
+        <a href="Photo.html" id="premierLink">
+            <i class="fas fa-film"></i> Скачать Adobe Photoshop 2024
+        </a>
+        <a href="Audition.html" id="premierLink">
+            <i class="fas fa-film"></i> Скачать Adobe Audition 2024
+        </a>
+        <a href="Effects.html" id="premierLink">
+            <i class="fas fa-film"></i> Скачать Adobe After Effects 2024
+        </a>
+        <a href="Illustrator.html" id="premierLink">
+            <i class="fas fa-film"></i> Скачать Adobe Illustrator 2023
+        </a>
+        <a href="Vegas.html" id="premierLink">
+            <i class="fas fa-film"></i> Скачать SonyVegas Pro 21
+        </a>
+    </div>
+    <script src="Davinci.js"></script>
+</body>
+</html>
